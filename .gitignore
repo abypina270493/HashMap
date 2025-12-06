@@ -1,24 +1,40 @@
-# Compiled class file
+# === Java ===
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.iml
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# === NetBeans ===
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbsbackup/
+
+# === Maven/Gradle (por si lo usas después) ===
+target/
+.out/
+build/
+
+# === IntelliJ (por si lo abres ahí) ===
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# === VSCode ===
+.vscode/
+
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Temporales / backups ===
+*~
+*.tmp
+*.bak
