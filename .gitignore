@@ -1,40 +1,21 @@
-# === Java ===
-*.class
-*.jar
-*.war
-*.ear
-*.iml
-
-# === NetBeans ===
-nbproject/private/
+# Ignore compiled classes
 build/
-nbbuild/
 dist/
+*.class
+
+# Ignore NetBeans private data
+nbproject/private/
+
+# Ignore NetBeans build artifacts
+nbbuild/
 nbdist/
-nbsbackup/
+.nb-gradle/
 
-# === Maven/Gradle (por si lo usas después) ===
-target/
-.out/
-build/
-
-# === IntelliJ (por si lo abres ahí) ===
-.idea/
-*.iws
-*.ipr
-*.iml
-
-# === VSCode ===
-.vscode/
-
-# === Archivos del sistema ===
-.DS_Store
-Thumbs.db
-
-# === Logs ===
+# Ignore temporary files
 *.log
-
-# === Temporales / backups ===
-*~
 *.tmp
 *.bak
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
