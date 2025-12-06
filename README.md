@@ -10,11 +10,22 @@ Se emplea un arreglo de listas enlazadas (LinkedList) como estructura base, junt
 ## Estructura del Proyecto (NetBeans)
 ```
 HashMap/
-└── Source Packages/
-└── hashmap/
-├── Diccionario.java
-├── TablaHash.java
-└── TestTablaHash.java
+├── nbproject/ # Archivos de configuración del proyecto NetBeans
+│ ├── private/
+│ │ └── private.properties
+│ ├── build-impl.xml
+│ ├── genfiles.properties
+│ ├── project.properties
+│ └── project.xml
+├── src/
+│ └── hashmap/ # Código fuente de Java
+│ ├── Diccionario.java # Clase para manejar diccionarios
+│ ├── TablaHash.java # Implementación de la tabla hash
+│ └── TestTablaHash.java # Clase de prueba de la tabla hash
+├── build.xml # Archivo de construcción Ant
+├── manifest.mf # Manifest del proyecto
+├── .gitignore
+└── README.md
 ```
 Todas las clases pertenecen al paquete:
 ```
